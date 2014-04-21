@@ -22,11 +22,13 @@ public class Main {
 		if(args.length==2){
 			strUri = args[0];
 			strKeyword = args[1];
+			System.out.printf("Uri: %s\n", strUri);
+			System.out.printf("Keyword: %s\n", strKeyword);
 		}else{
 			Scanner scanner = new Scanner(System.in);
-			System.out.printf("strUri: ");
+			System.out.printf("Uri: ");
 			strUri = scanner.nextLine();
-			System.out.printf("strKeyword: ");
+			System.out.printf("Keyword: ");
 			strKeyword = scanner.nextLine();
 		}
 		
